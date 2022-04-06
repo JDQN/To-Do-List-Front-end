@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande','Lucida Sans', Arial, sans-serif;
+}
+
+html, body{
+    background-image: url("../assets/bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 90%;
+    font-family: 'Montserrat', sans-serif;
+}
+h1 {
+    margin: 32px 0;
+    color: rgb(255, 255, 255);
+    font-size: 34px;
+    align-items: center;
+    text-align: center;
+}
+.card{
+    background:transparent;
+    align-content: center;
+    margin:0 auto;
+    margin-top: 0%;
+    border:none;
+}
+
+.containerList{
+    width: 60vw;
+    border-radius: 20px;
+    align-content: center;
+    margin: auto !important;
+    background-color:rgba(255, 255, 255, 0.499);
+    font-size: 12px !important;
+}
+
+@media (min-width: 360px) { 
+    .containerList{
+        display: none;
+    }
+}
